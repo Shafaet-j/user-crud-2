@@ -11,7 +11,7 @@ app.use(cors);
 app.use("/api/v1/users", UserRoutes);
 
 app.get("/", (req: Request, res: Response) => {
-  const a = 10;
+  const a = 11;
 
   res.send(a);
 });
